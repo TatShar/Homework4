@@ -11,7 +11,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
 int ostatok;
 
-while(number >=1){
+while(number !=0){
 
 ostatok = number%10;
 sum= sum + ostatok;
